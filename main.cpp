@@ -13,7 +13,7 @@ int check_os_super_strict() {
     std::string line;
     while (getline(osInfoFile, line))
     {
-      if (line.find("18.04.4 LTS (Bionic Beaver)") != std::string::npos) 
+      if (line.find("18.04.6 LTS (Bionic Beaver)") != std::string::npos) 
       {
         return 0;
       }

@@ -1,4 +1,6 @@
-# Motesque Software Engineer Embedded - Interview Assignment Yocto
+# Brivo Software Engineer Embedded - Interview Assignment Yocto
+
+Project branched from https://github.com/Motesque/yocto-interview.git
 
 ## Prerequisites
 * Docker Engine

@@ -18,9 +18,9 @@ RUN cd /tmp \
 
 # eigen
 RUN mkdir -p /tmp && cd /tmp \
-    && wget -nv http://bitbucket.org/eigen/eigen/get/3.3.5.tar.gz \
-    && tar -xvf 3.3.5.tar.gz \
-    && cd eigen-eigen-b3f3d4950030 && cmake -S . -B ./build \
+    && wget -nv https://gitlab.com/libeigen/eigen/-/archive/3.3.5/eigen-3.3.5.tar.gz \
+    && tar -xvf eigen-3.3.5.tar.gz \
+    && cd eigen-3.3.5 && cmake -S . -B ./build \
     && cd build && make install
 
 #RUN

@@ -11,7 +11,7 @@ A colleague of yours implementd a small C++ program using the Eigen Library (htt
 For your convenience, she created a Dockerfile which compiles the program "motesque-eigen" using CMake (https://cmake.org/) 
 
 Your task is to deploy this program on an embedded Linux Distribution based on the Yocto Project. 
-Since you do not have the actual hardware, we will use the **qemu** machine target. Please use the **dunfell** branch. 
+Since you do not have the actual hardware, we will use the **qemu** machine target. Please use the mainline branch. 
 We will provide you with SSH access to a suitable build-host.
 
 

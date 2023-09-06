@@ -52,7 +52,7 @@ https://wiki.yoctoproject.org/wiki/TipsAndTricks/Patching_the_source_for_a_recip
 ## Background
 We have created a build machine with some reasonable resources.  We have provided some example command lines to get you up and running in the virtual machine prior to doing the actual exercise.
 
-The provided user is part of the sudoer list.  This virtual machine has the following already installed:
+The provided user is part of the sudoer group.  This virtual machine has the following already installed:
 Git
 Docker Engine
 Yocto Crops Container (see https://github.com/crops/poky-container)

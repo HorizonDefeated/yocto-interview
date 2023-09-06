@@ -42,8 +42,9 @@ Motesque Magic Eigen
 ## Tips:
 You can familiarize yourself with the subject C++ program by using a special docker container on the virtual machine:
 ```
-~% docker build -t yocto-interview .
-~% docker run --rm yocto-interview motesque-eigen
+interview@ubuntu-c-32-64gib-nyc1-01:~$ cd yocto-interview/
+interview@ubuntu-c-32-64gib-nyc1-01:~/yocto-interview$ docker build -t yocto-interview .
+interview@ubuntu-c-32-64gib-nyc1-01:~/yocto-interview$ docker run --rm yocto-interview motesque-eigen
 ```
 
 You will need to make changes to the source to get it working in the Yocto image. 

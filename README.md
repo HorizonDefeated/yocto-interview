@@ -40,7 +40,7 @@ Motesque Magic Eigen
 ```
 
 ## Tips:
-You can  familiarize yourself with the C++ program by using Docker on your local machine:
+You can familiarize yourself with the C++ program by using a special docker container on the virtual machine:
 ```
 ~% docker build -t yocto-interview .
 ~% docker run --rm yocto-interview motesque-eigen

@@ -60,6 +60,7 @@ The virtual machine also has https://github.com/HorizonDefeated/yocto-interview.
 
 The yocto source cloned to /home/interview/yocto_crops.  This code was cloned and compiled with the following commands.
 [Replicating a clean build takes about an hour, hopefully it will be much faster since the machine has already downloaded and compiled everything]
+```
 interview@ubuntu-c-32-64gib-nyc1-01:~$ cd yocto_crops/
 interview@ubuntu-c-32-64gib-nyc1-01:~/yocto_crops$ docker run --rm -it -v $(pwd):$(pwd) crops/poky --workdir=$(pwd)
 pokyuser@b133aec52b78:/home/interview/yocto_crops$ cd poky
@@ -68,11 +69,12 @@ pokyuser@b133aec52b78:/home/interview/yocto_crops/poky$ source oe-init-build-env
 pokyuser@b133aec52b78:/home/interview/yocto_crops/poky/build$ bitbake core-image-minimal
 …
 pokyuser@b133aec52b78:/home/interview/yocto_crops/poky/build$
+```
 
 
 After building the system you can exit the docker container and run the root filesystem with qemu.
 
-
+```
 pokyuser@b133aec52b78:/home/interview/yocto_crops/poky/build$ exit
 interview@ubuntu-c-32-64gib-nyc1-01:~/yocto_crops$ cd poky
 interview@ubuntu-c-32-64gib-nyc1-01:~/yocto_crops/poky$ source oe-init-build-env
@@ -82,6 +84,6 @@ interview@ubuntu-c-32-64gib-nyc1-01:~/yocto_crops/poky/build$ runqemu qemux86-64
 qemux86-64 login: root
 root@qemux86-64:~# 
 <Ctrl-A X to exit qemu>
-
+```
 
 

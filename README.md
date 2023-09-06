@@ -6,6 +6,7 @@ Project branched from https://github.com/Motesque/yocto-interview.git
 * Docker Engine
 * Yocto Build Host (https://www.yoctoproject.org/docs/2.5.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html)
 * Git
+* Yocto Crops Container for Docker (see https://github.com/crops/poky-container)
 
 All prerequisites are already installed on a Virtual Machine provided by Brivo
 
@@ -52,10 +53,7 @@ https://wiki.yoctoproject.org/wiki/TipsAndTricks/Patching_the_source_for_a_recip
 ## Background
 We have created a build machine with some reasonable resources.  We have provided some example command lines to get you up and running in the virtual machine prior to doing the actual exercise.
 
-The provided user is part of the sudoer group.  This virtual machine has the following already installed:
-* Git
-* Docker Engine
-* Yocto Crops Container for Docker (see https://github.com/crops/poky-container)
+The provided user is part of the sudoer group.  The virtual machine has the dependencies above already installed.
 
 The virtual machine also has https://github.com/HorizonDefeated/yocto-interview.git already cloned to the path /home/interview/yocto-interview
 

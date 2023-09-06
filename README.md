@@ -7,6 +7,7 @@ Project branched from https://github.com/Motesque/yocto-interview.git
 * Yocto Build Host (https://www.yoctoproject.org/docs/2.5.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html)
 * Git
 * Yocto Crops Container for Docker (see https://github.com/crops/poky-container)
+* and more
 
 All prerequisites are already installed on a Virtual Machine provided by Brivo
 

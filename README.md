@@ -52,7 +52,7 @@ https://wiki.yoctoproject.org/wiki/TipsAndTricks/Patching_the_source_for_a_recip
 ## Background
 We have created a build machine with some reasonable resources.  We have provided some example command lines to get you up and running in the virtual machine prior to doing the actual exercise.
 
-The provider user is part of the sudoer list.  This virtual machine has the following already installed:
+The provided user is part of the sudoer list.  This virtual machine has the following already installed:
 Git
 Docker Engine
 Yocto Crops Container (see https://github.com/crops/poky-container)
@@ -60,7 +60,7 @@ Yocto Crops Container (see https://github.com/crops/poky-container)
 The virtual machine also has https://github.com/HorizonDefeated/yocto-interview.git already cloned to the path /home/interview/yocto-interview
 
 The yocto source cloned to /home/interview/yocto_crops.  This code was cloned and compiled with the following commands.
-[Replicating a clean build takes about an hour, hopefully it will be much faster since the machine has already downloaded and compiled everything]
+[Replicating a clean build takes about an hour, hopefully it will be much faster since the machine has already downloaded and compiled everything and you won't need to do a clean build]
 ```
 interview@ubuntu-c-32-64gib-nyc1-01:~$ cd yocto_crops/
 interview@ubuntu-c-32-64gib-nyc1-01:~/yocto_crops$ docker run --rm -it -v $(pwd):$(pwd) crops/poky --workdir=$(pwd)

@@ -6,6 +6,7 @@ Project branched from https://github.com/Motesque/yocto-interview.git
 * Docker Engine
 * Yocto Build Host (https://www.yoctoproject.org/docs/2.5.1/brief-yoctoprojectqs/brief-yoctoprojectqs.html)
 * Git
+
 All prerequisites are already installed on a Virtual Machine provided by Brivo
 
 The login details for that machine are transmitted separately

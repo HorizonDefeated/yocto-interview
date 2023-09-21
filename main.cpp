@@ -27,9 +27,9 @@ int check_os_super_strict() {
 
 int main()
 {
-  if (check_os_super_strict() != 0) {
+  /*if (check_os_super_strict() != 0) {
     exit(-1);
-  }
+  }*/
   std::cout << "Motesque Magic Eigen" << std::endl;
   MatrixXd m(2,2);
   m(0,0) = 3;
